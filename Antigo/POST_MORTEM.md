@@ -1,4 +1,7 @@
 
+
+
+
 A IA resolveu bem os problemas, apesar de ter apresentado soluções excessivamente técnicas para o contexto do trabalho. Após estudar o código, não encontramos pontos que necessitassem de refatoração, o que faz sentido, pois o problema é bem simples.
 
 Não houve erros de execução, mas o código gerado incialmente não condizia com a estrutura de repositório sugerida  pela própria IA para a implementação em C++, que contava com um arquivo a mais. Um prompt extra resolveu essa questão
@@ -69,3 +72,8 @@ Lista de de testes em Python:
 * teste do método troca;
 * teste de troca quando não há elementos suficientes;
 * Teste de estresse com 1.000.000 de elementos
+
+
+# Conclusão
+
+Em suma, a implementação da estrutura de dados Pilha em C++, JavaScript e Python cumpriu com sucesso todos os requisitos propostos. A análise do código gerado pela IA permitiu compreender nuances importantes de implementação: como o tratamento do \texttt{array.array} em Python via bloco \texttt{try-except}. Além disso, pudemos validar a eficácia dos testes unitários, que cobriram todas as nossas demandas. Por fim, os testes de estresse evidenciaram com clareza o comportamento de cada ambiente de execução, destacando a equivalência e superioridade de performance do C++ e do JavaScript frente ao Python para volumes massivos de operações. 
